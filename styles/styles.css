@@ -26,12 +26,17 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    
 }
 
 .logo {
     max-width: 58px;
     max-height: 58px;
     width: 50%;
+    font-family: 'Source Sans Pro', normal;
+    color: #64D810;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 
