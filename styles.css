@@ -1,0 +1,56 @@
+body{
+    box-sizing: border-box;
+    max-width: 1440px;
+    width:100%;
+    margin:auto;
+
+}
+.heading__container{
+    text-align:center;
+}
+
+h1{
+    font-size:80px;
+    font-family: 'Source Sans Pro', normal;
+}
+h2{
+    font-size:40px;
+    font-family: 'Source Sans Pro', normal;
+}
+h3{
+    font-size: 40px;
+}
+.main__container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.info__container{
+    max-width:30%;
+    text-align:center;
+    border-style: solid;
+    font-size:30px;
+    font-family: 'Source Sans Pro', normal;
+}
+
+.main__button{
+    margin:auto;
+    text-align:center;
+}
+.book__icon{
+    font-size:60px;
+    
+}
+.btn{
+    border-style:solid;
+    font-size:40px;
+    max-width:100%;
+    padding:30px;
+    font-family: 'Source Sans Pro', normal;
+    
+}
+.btn:hover{
+    background-color:#64d810;
+    transition:0.5s ease-in-out
+}
