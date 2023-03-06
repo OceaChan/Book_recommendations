@@ -1,0 +1,60 @@
+.title {
+    margin-top: 10px;
+    margin-left: 140px;
+    font-family: 'Source Sans Pro', normal;
+    font-size: 50px;
+    color: #64D810;
+}
+
+.products {
+	display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 20px;
+    margin-left: 140px;
+    gap: 20px 20px;
+    width: 996px;
+    height: min-content;
+            
+
+        &__box {
+            background-color: #64D810;
+            padding: 10px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: white; 
+            width: 242px;
+            height: 382px; 
+            text-align: center; 
+                    
+            
+            &__h3 {
+                font-size: 25px;
+            }
+            &__info{                
+                text-align: center;
+            }
+            &__img{
+                border: 3px solid #ddd;
+                border-radius: 4px;
+                padding: 5px;
+                width: 150px;
+            }
+                &__button {
+                    margin-top: 40px;
+                    border: 2px solid white;
+                    background-color: #64D810;
+                    border-radius: 8px;
+                    color: white;
+                    padding: 15px 32px;
+                        }
+                    &__button:hover{
+                        background-color: #4CAF50;
+                        color: white;
+                }
+            }
+
+        
+}
