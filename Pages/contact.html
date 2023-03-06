@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Tamma+2&display=swap"
-        rel="stylesheet">
     <script src="https://kit.fontawesome.com/20b631fd69.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Actor&family=Mulish:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&family=Ramaraja&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="./styles/reset.css">
     <title>Contact Form</title>
 </head>
 
 <body>
-    <header>
+    <header class="second-pageheader">
         <section class="header_layout">
             <div>
-                <a href="index.html" class="logo"> <img src="images/booklogo.svg"
-                        alt="">Bookaholic</a>
+                <a href="index.html" class="logo"> <img src="../images/booklogo.svg" alt="">Bookaholic</a>
             </div>
             <input id="menu-toggle" type="checkbox" />
             <label class="menu-button-container" for="menu-toggle">
@@ -24,8 +25,8 @@
             </label>
             <ul class="menu">
                 <li><a href="products.html">Our products</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="index.html">Gallery</a></li>
+                <li><a href="contact.html">Contact us</a></li>
             </ul>
         </section>
         <div class="border"></div>
@@ -45,11 +46,11 @@
                 <label for="select" class="label">What type of books you want to read?</label>
                 <i class="fas fa-caret-down select__icon"></i>
                 <select name="cats" class="select" id="select">
-                    <option value="tabby">Romantic Novels</option>
-                    <option value="russian-blue">Adventure Stories</option>
-                    <option value="norwegian-forest">Classic</option>
-                    <option value="siamese">Crime</option>
-                    <option value="munchkin">Fantasy</option>
+                    <option value="romantic-novels">Romantic Novels</option>
+                    <option value="adventure-stories">Adventure Stories</option>
+                    <option value="classic">Classic</option>
+                    <option value="crime">Crime</option>
+                    <option value="fantasy">Fantasy</option>
                 </select>
             </div>
             <label for="password" class="label">Your password</label>
@@ -71,5 +72,20 @@
             <button type="submit" class="button">Submit</button>
         </form>
     </main>
+    <footer>
+        <div>
+            <div class="footer-first">
+                <a href="../index.html" class="logo"> <img src="../images/booklogo.svg" alt="">Bookaholic</a>
+            </div>
+            <div class="footer__list">
+                <a class="footer__li" href="#"><i class="fa-brands fa-edge"></i>
+                </a>
+                <a class="footer__li" href="#"><i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="footer__li" href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

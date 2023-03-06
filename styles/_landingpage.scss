@@ -1,0 +1,73 @@
+body {
+    box-sizing: border-box;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background-image: url(../images/books\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header__container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Sono', sans-serif;
+    color: white;
+}
+
+.header__title {
+    color: #64d810
+}
+
+h3 {
+    font-size: 40px;
+    color: #64d810;
+}
+
+.main__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info__container {
+    max-width: 30%;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    margin-left: 5rem;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', normal;
+    color: black;
+}
+
+.main__button {
+    margin: auto;
+    text-align: center;
+}
+
+.book__icon {
+    font-size: 60px;
+    color: white;
+}
+
+.btn {
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 40px;
+    max-width: 100%;
+    padding: 20px;
+    font-family: 'Source Sans Pro', normal;
+    border: none;
+    color: white;
+    background-color: black;
+    font-family: 'Sono', sans-serif;
+}
+
+.btn:hover {
+    background-color: #64d810;
+    transition: 0.5s ease-in-out;
+}
