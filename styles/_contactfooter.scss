@@ -1,23 +1,28 @@
 footer {
     width: 100%;
-    max-width: 1109px;
+    max-width: 1440px;
     min-height: 20px;
     display: flex;
     justify-content: center;
     align-items: end;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 50px;
+    background-color: rgb(7, 7, 95);
+}
+
+.footer-first {
+    margin-top: 20px;
 }
 
 .footer__list {
     width: 100%;
-    max-width: 1109px;
+    max-width: 1440px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 0px;
     margin-right: 0px;
+    margin-top: 20px;
 }
 
 .footer__li {
@@ -28,6 +33,6 @@ footer {
     line-height: 23px;
     /* identical to box height */
     letter-spacing: -0.346154px;
-    color: #111111;
+    color: #64D810;
     text-decoration: none;
 }
