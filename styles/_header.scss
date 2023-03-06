@@ -71,6 +71,13 @@ header {
       font-size: 16px;
         color: #64D810;
   }
+  .menu > li a:hover {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', normal;
+    font-weight: 400;
+    font-size: 16px;
+      color: #6d10d8;
+}
   
   .menu-button-container {
     display: none;
