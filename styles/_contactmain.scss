@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+
+}
+
+.screen {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(../images/book.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+
