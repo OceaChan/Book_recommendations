@@ -1,18 +1,18 @@
 .form {
     box-sizing: border-box;
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
     min-height: 500px;
     padding: 15px 20px;
-    background-color: wheat;
-    border-radius: 5px;
+    background-color:rgb(7, 7, 95);
+    border-radius: 0px;
     box-shadow: 2px 2px 8px #151414;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: end;
     margin-right: 50px;
-    font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .main-title,
@@ -23,7 +23,7 @@
 }
 
 .main-title {
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .main-info {

@@ -1,17 +1,21 @@
 body {
     margin: 0;
-
 }
 
 .screen {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
-    background-image: url(../images/book.jpg);
+    background-image: url(../images/contact-book.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 50px;
 }
 
+.second-pageheader {
+    background-color:rgb(7, 7, 95);
+}
+header{
+    height: 20vh;
+}

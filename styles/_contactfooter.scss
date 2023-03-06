@@ -1,0 +1,33 @@
+footer {
+    width: 100%;
+    max-width: 1109px;
+    min-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
+.footer__list {
+    width: 100%;
+    max-width: 1109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 0px;
+}
+
+.footer__li {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    letter-spacing: -0.346154px;
+    color: #111111;
+    text-decoration: none;
+}
