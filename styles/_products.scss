@@ -1,0 +1,20 @@
+
+main {
+    overflow: hidden;
+    font-family: fonts.$main-font;
+
+        &__box {
+            display: inline-block;
+            max-width: 635px;
+            margin-left: 125px;
+            margin-top: 29px;
+            flex-direction: column;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;      
+        }
+        &__button {
+            background-color: #64D810;
+        }
+}
