@@ -1,30 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" href="../styles/reset.css">
-    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Tamma+2&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/20b631fd69.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Contact Form</title>
 </head>
+
 <body>
-    <section class="header_layout">
-        <div>
-            <a href="../index.html" class="logo"> <img src="../images/booklogo.svg" alt="">Bookaholic</a>
-        </div>
-        <input id="menu-toggle" type="checkbox" />
-        <label class="menu-button-container" for="menu-toggle">
-        <div class="menu-button"></div>
-      </label>
-        <ul class="menu">
-            <li><a  href="products.html">Our products</a></li>
-            <li><a  href="gallery.html">Gallery</a></li> 
-            <li><a href="contact.html">Contact us</a></li>           
-        </ul>
-      </section>
-      <div class="border"></div>  
-    
+    <header>
+        <section class="header_layout">
+            <div>
+                <a href="../index.html" class="logo"> <img src="images/booklogo.svg"
+                        alt="">Bookaholic</a>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-button-container" for="menu-toggle">
+                <div class="menu-button"></div>
+            </label>
+            <ul class="menu">
+                <li><a href="products.html">Our products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </section>
+        <div class="border"></div>
+    </header>
+    <main class="screen">
+        <form class="form" autocomplete="off">
+            <h1 class="main-title">Contact Us</h1>
+            <h2 class="main-info">What kind of books are you interested in? Please fill out the form below to get
+                cutomise package!</h2>
+
+            <label for="name" class="label">Full name</label>
+            <input type="text" name="name" id="name" class="input-field" placeholder="Enter your name">
+            <label for="email" class="label">Email address</label>
+            <input type="email" name="email" id="email" class="input-field" placeholder="Enter your email" required
+                autofocus>
+            <div class="select-wrapper">
+                <label for="select" class="label">What type of books you want to read?</label>
+                <i class="fas fa-caret-down select__icon"></i>
+                <select name="cats" class="select" id="select">
+                    <option value="tabby">Romantic Novels</option>
+                    <option value="russian-blue">Adventure Stories</option>
+                    <option value="norwegian-forest">Classic</option>
+                    <option value="siamese">Crime</option>
+                    <option value="munchkin">Fantasy</option>
+                </select>
+            </div>
+            <label for="password" class="label">Your password</label>
+            <input type="password" name="password" id="password" class="input-field" placeholder="Enter your password"
+                required minlength="8">
+            <label class="label label--large">
+                <div class="label__text">Anything Specific you want to tell</div>
+                <textarea name="message" cols="30" rows="4" class="textarea"
+                    placeholder="Enter your message"></textarea>
+            </label>
+            <div class="checkbox-container">
+                <label class="checkbox-label">
+                    <input type="checkbox" checked>
+                    <span class="checkbox-custom rectangular"></span>
+                    <div class="input-title">I'd like to receive information about new offers on my email!</div>
+                </label>
+
+            </div>
+            <button type="submit" class="button">Submit</button>
+        </form>
+    </main>
 </body>
 </html>
