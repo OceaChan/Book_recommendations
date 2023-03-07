@@ -821,26 +821,25 @@ body {
   background-size: 100%;
 }
 
-.header__container {
-  text-align: center;
-}
-
-h1 {
+.title__h1 {
   font-size: 80px;
-  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
 }
-
-.header__title {
-  color: #64d810;
-}
-
-h3 {
+.title__h3 {
   font-size: 40px;
+  font-weight: 700;
+  color: #64d810;
+  padding: 20px;
+}
+.title__header {
   color: #64d810;
 }
 
-.main__container {
+.container__header {
+  text-align: center;
+}
+.container__main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -851,26 +850,15 @@ h3 {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.info__container {
+.container__info1 {
   max-width: 30%;
   text-align: center;
   border-style: solid;
   border-color: black;
-  margin-left: 5rem;
+  margin-left: 8rem;
   font-size: 30px;
   font-family: "Source Sans Pro", normal;
   color: black;
-}
-
-.main__button {
-  margin: auto;
-  text-align: center;
-}
-
-.book__icon {
-  font-size: 60px;
-  color: white;
 }
 
 .btn {
@@ -883,11 +871,19 @@ h3 {
   border: none;
   color: white;
   background-color: black;
-  font-family: "Sono", sans-serif;
+  cursor: pointer;
 }
-
+.btn__main {
+  margin: auto;
+  text-align: center;
+}
 .btn:hover {
   background-color: #64d810;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
+}
+
+.book__icon {
+  font-size: 60px;
+  color: white;
 }
