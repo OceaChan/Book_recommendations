@@ -811,7 +811,7 @@ footer {
   text-decoration: none;
 }
 
-body {
+.body__index {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   max-width: 1440px;
