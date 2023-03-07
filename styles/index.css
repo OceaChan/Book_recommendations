@@ -819,7 +819,8 @@ body {
   margin: auto;
   background-image: url(../images/books\ \(3\).jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .title__h1 {
@@ -887,4 +888,24 @@ body {
 .book__icon {
   font-size: 60px;
   color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .btn {
+    max-width: 50%;
+    font-size: 20px;
+  }
+  .title__h1 {
+    font-size: 40px;
+  }
+  .title__h3 {
+    font-size: 20px;
+  }
+  .container__info1 {
+    font-size: 15px;
+  }
+  .book__icon {
+    font-size: 30px;
+    color: #64d810;
+  }
 }
