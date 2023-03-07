@@ -723,9 +723,9 @@ body {
   text-align: center;
 }
 
-h1 {
+.title__h1 {
   font-size: 80px;
-  font-family: "Sono", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
 }
 
@@ -735,7 +735,9 @@ h1 {
 
 .title__h3 {
   font-size: 40px;
+  font-weight: 700;
   color: #64d810;
+  padding: 20px;
 }
 
 .main__container {
@@ -750,12 +752,12 @@ h1 {
           align-items: center;
 }
 
-.info__container {
+.info__container1 {
   max-width: 30%;
   text-align: center;
   border-style: solid;
   border-color: black;
-  margin-left: 5rem;
+  margin-left: 8rem;
   font-size: 30px;
   font-family: "Source Sans Pro", normal;
   color: black;
@@ -781,7 +783,7 @@ h1 {
   border: none;
   color: white;
   background-color: black;
-  font-family: "Sono", sans-serif;
+  cursor: pointer;
 }
 
 .btn:hover {
