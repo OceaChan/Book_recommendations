@@ -719,28 +719,25 @@ body {
   background-size: 100%;
 }
 
-.header__container {
-  text-align: center;
-}
-
 .title__h1 {
   font-size: 80px;
   font-family: "Source Sans Pro", sans-serif;
   color: white;
 }
-
-.header__title {
-  color: #64d810;
-}
-
 .title__h3 {
   font-size: 40px;
   font-weight: 700;
   color: #64d810;
   padding: 20px;
 }
+.title__header {
+  color: #64d810;
+}
 
-.main__container {
+.container__header {
+  text-align: center;
+}
+.container__main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -751,8 +748,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
-.info__container1 {
+.container__info1 {
   max-width: 30%;
   text-align: center;
   border-style: solid;
@@ -761,16 +757,6 @@ body {
   font-size: 30px;
   font-family: "Source Sans Pro", normal;
   color: black;
-}
-
-.main__button {
-  margin: auto;
-  text-align: center;
-}
-
-.book__icon {
-  font-size: 60px;
-  color: white;
 }
 
 .btn {
@@ -785,9 +771,17 @@ body {
   background-color: black;
   cursor: pointer;
 }
-
+.btn__main {
+  margin: auto;
+  text-align: center;
+}
 .btn:hover {
   background-color: #64d810;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
+}
+
+.book__icon {
+  font-size: 60px;
+  color: white;
 }

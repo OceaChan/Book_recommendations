@@ -8,34 +8,34 @@ body {
     background-size: 100%;
 }
 
-.header__container {
-    text-align: center;
-}
-
-.title__h1 {
+.title {
+    &__h1 {
     font-size: 80px;
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
-}
-
-.header__title {
-    color: #64d810
-}
-
-.title__h3 {
+    }
+    &__h3 {
     font-size: 40px;
     font-weight: 700;
     color:#64d810;
     padding:20px;
+    }
+    &__header {
+    color: #64d810
+    }   
 }
 
-.main__container {
+.container {
+    &__header {
+        text-align: center;
+    }
+    &__main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.info__container1 {
+    }
+    
+    &__info1 {
     max-width: 30%;
     text-align: center;
     border-style: solid;
@@ -44,16 +44,7 @@ body {
     font-size: 30px;
     font-family: 'Source Sans Pro', normal;
     color: black;
-}
-
-.main__button {
-    margin: auto;
-    text-align: center;
-}
-
-.book__icon {
-    font-size: 60px;
-    color: white;
+    }
 }
 
 .btn {
@@ -67,10 +58,19 @@ body {
     color: white;
     background-color: black;
     cursor: pointer;
-    
-}
 
-.btn:hover {
+    &__main {
+    margin: auto;
+    text-align: center;
+    }
+
+    &:hover{
     background-color: #64d810;
     transition: 0.5s ease-in-out;
+    }
+}
+    
+.book__icon {
+    font-size: 60px;
+    color: white;
 }
