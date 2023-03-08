@@ -304,7 +304,7 @@ body {
       -ms-flex-pack: end;
           justify-content: end;
   margin-right: 50px;
-  font-family: "Source Sans Pro", normal;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .main-title,
@@ -316,7 +316,7 @@ body {
 }
 
 .main-title {
-  font-family: "Source Sans Pro", normal;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .main-info {
@@ -619,7 +619,7 @@ body {
 
 .title {
   margin-top: 10px;
-  font-family: "Source Sans Pro", normal;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 50px;
   color: black;
 }
@@ -637,7 +637,6 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 20px;
-  /*margin-left: 140px;*/
   gap: 20px 20px;
   max-width: 996px;
   width: 100%;
@@ -657,6 +656,7 @@ body {
   width: 100%;
   min-height: 382px;
   text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .products__box__h3 {
   font-size: 25px;
@@ -679,7 +679,7 @@ body {
   padding: 15px 32px;
 }
 .products__box__button:hover {
-  background-color: #4CAF50;
+  background-color: black;
   color: white;
 }
 
