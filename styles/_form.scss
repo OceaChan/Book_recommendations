@@ -4,7 +4,7 @@
     width: 100%;
     min-height: 500px;
     padding: 15px 20px;
-    background-color:white;
+    background-color: white;
     border-radius: 0px;
     box-shadow: 2px 2px 8px #151414;
     display: flex;
@@ -262,4 +262,11 @@
     background-color: #dfdfdc;
     color: rgba(70, 96, 96, 1);
     opacity: 0.6;
+}
+
+@media screen and (max-width: 320px) {
+    .input-title {
+        width: 200px;
+        color: #64d810;
+    }
 }
