@@ -36,7 +36,7 @@
     }
     &__main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     }
     
@@ -147,9 +147,12 @@
 
 
 @media screen and (max-width: 600px) {
+    .container__main{
+        flex-direction:column;
+    }
     .btn {
-    max-width:60%;
-    font-size:15px;
+        max-width:60%;
+        font-size:15px;
     }
     .title__h1{
         font-size: 40px;
@@ -159,11 +162,11 @@
     }
     .container__info1{
         font-size:15px;
+        margin-left:1rem;
     }
    
     .book__icon{
         font-size:30px;
         color:#64d810;
     }
-
 }
