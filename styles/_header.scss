@@ -9,7 +9,6 @@ body {
 header {
   max-width: 1440px;
   width: 100%;
-  height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -43,6 +42,7 @@ header {
 
 /* NAV */
 .top-nav {
+<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -133,6 +133,43 @@ header {
   border-bottom-style: solid;
   border-width: 4px;
   color: #64D810;
+=======
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    height: 50px;
+    padding: 1em;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu > li {
+    margin: 0 1rem;
+    overflow: hidden;
+  }
+  
+  .menu > li a {
+      text-decoration: none;
+      font-family: 'Source Sans Pro', sans-serif
+      font-weight: 400;
+      font-size: 20px;
+        color: #64D810;
+  }
+  .menu > li a:hover {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+      color: #6d10d8;
+>>>>>>> 0ee034f185c4f9424d64905c6e06c7c6a0e6e588
 }
 
 
@@ -151,7 +188,6 @@ header {
   }
 
   .menu {
-    position: absolute;
     top: 0;
     margin-top: 50px;
     left: 0;

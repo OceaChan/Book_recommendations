@@ -1,23 +1,32 @@
-body {
+.body__products {
     max-width: 1440px;
+    width:100%;
     background-color: white;
+    display:flex;
+    
+}
+.products__main {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    
 }
 .title {
     margin-top: 10px;
-    margin-left: 140px;
-    font-family: 'Source Sans Pro', normal;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 50px;
-    color: #64D810;
+    color: black;
 }
 
 .products {
 	display: flex;
     flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
+    justify-content:center;
     margin-top: 20px;
-    margin-left: 140px;
     gap: 20px 20px;
-    width: 996px;
+    max-width: 996px;
+    width:100%;
     height: min-content;
             
 
@@ -29,9 +38,11 @@ body {
             font-size: 16px;
             line-height: 26px;
             color: white; 
-            width: 242px;
-            height: 382px; 
+            max-width: 242px;
+            width:100%;
+            min-height: 382px; 
             text-align: center; 
+            font-family: 'Source Sans Pro', sans-serif;
                     
             
             &__h3 {
@@ -55,10 +66,66 @@ body {
                     padding: 15px 32px;
                         }
                     &__button:hover{
-                        background-color: #4CAF50;
+                        background-color:black;
                         color: white;
                 }
             }
 
         
 }
+.foot_products{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    max-width: 1440px;
+    min-height: 20px;
+    background-color:white;
+    margin-top: auto; 
+}
+.footer_gallery{
+    margin-top:20px;
+}
+.footer__list{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+}
+.footer__li{
+    font-family: 'Source Sans Pro', normal;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #64D810;
+    text-decoration: none;
+}
+
+  @media only screen and (max-width: 480px) {
+    .title {
+        font-size: 20px;
+        margin-top: auto;
+        margin: auto;
+        text-align: start;
+        }
+	.products {
+      flex: 100%;
+	  flex-direction: column;
+	  flex-wrap: wrap;
+	  width: 100%;
+    }
+	.box {
+		flex-direction: column;
+	    width: 100%;
+	    height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+	}
+  }
