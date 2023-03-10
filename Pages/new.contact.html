@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/20b631fd69.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Actor&family=Mulish:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&family=Ramaraja&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <section class="header_layout">
+        <div>
+            <a href="index.html" class="logo"> <img src="../images/booklogo.svg" alt="">Bookaholic</a>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-button-container" for="menu-toggle">
+            <div class="menu-button"></div>
+        </label>
+        <ul class="menu">
+            <li><a href="products.html">Our products</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="new.contact.html">Contact us</a></li>
+        </ul>
+    </section>
+    <div class="border"></div>
+    <main>
+        <div class="main-form">
+            <div class="form-left">
+                <h1 class="contact-heading">Tell us more about yourself</h1>
+                <form method="POST" id="contact-form" novalidate="novalidate">
+                    <div class="column-one">
+                        <div class="form-group"><input type="text" class="form-control" name="name" id="name"
+                                placeholder="My Name">
+                        </div>
+                        <div class="column-two">
+                            <div class="form-group"><input type="email" class="form-control" name="email" id="email"
+                                    placeholder="My Email">
+                            </div>
+                            <div class="list-books">
+                                <label for="select" class="label">What type of books you want to read?</label>
+                                <select name="books" class="select" id="select">
+                                    <option value="romantic-novels">Romantic Novels</option>
+                                    <option value="adventure-stories">Adventure Stories</option>
+                                    <option value="classic">Classic</option>
+                                    <option value="crime">Crime</option>
+                                    <option value="fantasy">Fantasy</option>
+                                </select>
+                                <textarea name="message" class="message-form" id="message" cols="20" rows="7"
+                                    placeholder="Anything Specific You would Like To inform"></textarea>
+                            </div>
+                            <button type="submit" class="button">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="right-side">
+                <h2>Contact Us:</h2>
+                <div class="address-box">
+                    <div><i class="fa-solid fa-address-book"></i></div>
+                    <p><span>Address:</span>Göteborg XXXX</p>
+                </div>
+                <div class="phone">
+                    <div><i class="fa-solid fa-phone"></i></div>
+                    <span>Phone Number:</span><a href="tel://123455">123445</a>
+                </div>
+                <div class="map">
+                    <div><i class="fa-regular fa-map"></i></div>
+                    <img src="../images/mapsmania.jpg" alt="map">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="foot_gallery">
+        <div>
+            <div class="footer_gallery">
+                <a href="../index.html" class="logo"> <img src="../images/booklogo.svg" alt="">Bookaholic</a>
+            </div>
+            <div class="footer__list">
+                <a class="footer__li" href="#"><i class="fa-brands fa-edge"></i>
+                </a>
+                <a class="footer__li" href="#"><i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="footer__li" href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

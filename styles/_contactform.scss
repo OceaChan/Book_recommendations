@@ -1,0 +1,112 @@
+.right-side {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    max-width: 500px;
+    width: 100%;
+    min-height: 500px;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 2px 2px 8px #151414;
+    margin-right: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    max-width: 500px;
+    width: 100%;
+    min-height: 500px;
+    padding: 15px 20px;
+    background-color: white;
+    border-radius: 0px;
+    box-shadow: 2px 2px 8px #151414;
+    margin-right: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #64d810;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.list-books {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.phone,.address-box,.map{ 
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+    background: #fafafa;
+    max-width: 350px;
+    min-height: 150px;
+    color:#64d810;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.label {
+    display: block;
+    font-size: 20px;
+    box-sizing: border-box;
+    position: relative;
+    bottom: -2px;
+    z-index: 1;
+    width: 100%;
+    padding: 4px 7px;
+    color:black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.select {
+    height: 50px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color:#64d810;
+    cursor: pointer;
+}
+textarea,input {
+	resize: none;
+	border-radius: 5px;
+	margin-bottom: 0;
+	border-bottom: none;
+	padding-top: 4px;
+    margin-top: 30px;
+    color:#64d810;
+    width: 500px;
+    height: 50px;
+}
+.button:hover {
+	background-color: rgba(237, 177, 201, 1);
+	color: rgba(70, 96, 96, 1);
+}
+
+.button:disabled {
+	background-color: #dfdfdc;
+	color: rgba(70, 96, 96, 1);
+	opacity: 0.6;
+}
+.button{
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    background-color: antiquewhite;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 16px;
+}
